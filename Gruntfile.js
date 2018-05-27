@@ -56,6 +56,11 @@ module.exports = function(grunt) {
                 tasks: ['sass']
             },
 
+            public: {
+                files: ['src/public/**/*'],
+                tasks: ['copy']
+            },
+
             options: {
                 livereload: true
             }
