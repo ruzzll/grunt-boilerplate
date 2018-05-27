@@ -27,6 +27,7 @@ module.exports = function(grunt) {
         copy: {
             build: {
                 files: [ {
+                    dot: true,
                     expand: true,
                     cwd: 'src/public/',
                     src: [ '**' ],
